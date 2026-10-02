@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 820" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Koyu kırmızı güllerden buket</title><desc id="desc">Doğal yapraklı, koyu kırmızı ve soluk gül kurusu güllerden elde çizilmiş zarif bir buket.</desc>
+  <defs>
+    <linearGradient id="paper" x1="236" y1="426" x2="527" y2="788" gradientUnits="userSpaceOnUse"><stop stop-color="#8C6266" stop-opacity=".72"/><stop offset=".45" stop-color="#42262D" stop-opacity=".82"/><stop offset="1" stop-color="#1B1216" stop-opacity=".98"/></linearGradient>
+    <linearGradient id="paperFold" x1="340" y1="475" x2="458" y2="743" gradientUnits="userSpaceOnUse"><stop stop-color="#D0A9A6" stop-opacity=".35"/><stop offset="1" stop-color="#4D2931" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#667960"/><stop offset=".52" stop-color="#304836"/><stop offset="1" stop-color="#172C25"/></linearGradient>
+    <linearGradient id="leafLight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#889078"/><stop offset="1" stop-color="#394D3D"/></linearGradient>
+    <radialGradient id="redPetal" cx="0" cy="0" r="1" gradientTransform="matrix(20 52 -48 19 0 0)" gradientUnits="userSpaceOnUse"><stop stop-color="#B7606B"/><stop offset=".38" stop-color="#853745"/><stop offset="1" stop-color="#421522"/></radialGradient>
+    <radialGradient id="deepPetal" cx="0" cy="0" r="1" gradientTransform="matrix(19 40 -40 19 0 0)" gradientUnits="userSpaceOnUse"><stop stop-color="#A14756"/><stop offset=".5" stop-color="#682635"/><stop offset="1" stop-color="#30101A"/></radialGradient>
+    <radialGradient id="blushPetal" cx="0" cy="0" r="1" gradientTransform="matrix(15 38 -34 13 0 0)" gradientUnits="userSpaceOnUse"><stop stop-color="#D7B2B7"/><stop offset=".48" stop-color="#A77985"/><stop offset="1" stop-color="#623C4B"/></radialGradient>
+    <filter id="shadow" x="40" y="72" width="680" height="738" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+  <ellipse cx="385" cy="760" rx="230" ry="30" fill="#030405" opacity=".3" filter="url(#shadow)"/>
+  <!-- long stems and natural foliage -->
+  <g stroke="#263E31" stroke-width="5" stroke-linecap="round" opacity=".92">
+    <path d="M379 578C346 442 230 322 187 170"/><path d="M392 578C401 421 487 301 535 164"/><path d="M378 581C327 422 320 303 334 133"/><path d="M393 579C446 424 437 312 433 180"/><path d="M381 584C290 466 166 402 113 280"/>
+  </g>
+  <g fill="url(#leaf)" stroke="#293C30" stroke-width="2">
+    <path d="M254 399C176 389 132 343 124 278C190 289 239 327 254 399Z"/><path d="M235 349C166 329 126 277 128 219C191 233 230 279 235 349Z"/><path d="M310 333C250 292 231 232 249 176C303 211 326 267 310 333Z"/>
+    <path d="M447 364C471 297 519 256 583 247C568 312 523 357 447 364Z"/><path d="M474 311C495 244 542 202 604 192C591 257 547 302 474 311Z"/>
+    <path d="M414 390C418 316 452 262 510 235C510 304 477 359 414 390Z"/><path d="M349 378C304 319 297 257 327 201C367 256 378 318 349 378Z"/>
+    <path d="M283 486C207 486 154 451 129 389C196 389 252 421 283 486Z"/><path d="M435 473C478 411 535 384 600 396C560 448 503 478 435 473Z"/>
+    <path d="M368 453C305 413 279 354 292 290C345 330 374 387 368 453Z"/><path d="M405 449C411 378 450 326 512 305C504 369 465 420 405 449Z"/>
+  </g>
+  <g stroke="#A1A18A" stroke-opacity=".37" stroke-width="1.2" stroke-linecap="round">
+    <path d="M246 387 137 291M229 338l-89-105M301 322l-43-128M458 354l112-92M481 302l108-97M346 367l-17-147M270 478l-125-72M449 464l132-54M358 440l-52-131M415 435l83-114"/>
+  </g>
+  <!-- bouquet wrap -->
+  <path d="M224 424C273 450 323 463 377 461C435 460 480 444 536 414L467 756C425 790 335 792 292 754L224 424Z" fill="url(#paper)" stroke="#A0777B" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M240 435C297 477 332 565 373 771L299 747 226 429Z" fill="url(#paperFold)"/>
+  <path d="M527 420C468 493 436 610 423 779L465 753 537 416Z" fill="#A67B7B" fill-opacity=".11"/>
+  <path d="M265 449C314 514 358 628 387 774" stroke="#E6C6BD" stroke-opacity=".22" stroke-width="2"/>
+  <!-- ribbon and soft bow -->
+  <path d="M363 581C324 543 286 539 277 566C270 587 304 610 365 605C330 626 312 658 333 670C354 682 379 637 382 606C394 659 422 677 439 658C454 641 424 611 390 602C445 604 474 586 464 565C452 539 406 550 383 582Z" fill="#6B343E" stroke="#B07A7D" stroke-opacity=".66" stroke-width="2"/>
+  <path d="M377 600 350 716 381 737 396 608M389 603 435 707 409 728 382 609" fill="#5B2B36" stroke="#AB7278" stroke-opacity=".55" stroke-width="2"/>
+  <ellipse cx="382" cy="596" rx="13" ry="11" fill="#A37579"/>
+  <!-- rose heads -->
+  <g transform="translate(189 161) rotate(-13) scale(1.08)">
+    <path d="M-58 10C-69-24-42-61-10-59 19-86 57-61 57-34 84-11 65 31 41 40 20 71-25 63-35 43-62 39-76 20-58 10Z" fill="url(#deepPetal)"/>
+    <path d="M-49-13C-37-45-7-54 15-39 42-53 62-27 50-8 61 17 37 42 16 36-2 56-31 45-31 25-55 18-65 0-49-13Z" fill="url(#redPetal)"/>
+    <path d="M-32-11C-25-31-4-40 12-25 30-32 43-14 31 0 42 17 24 31 9 23-5 39-23 29-21 15-39 9-44-3-32-11Z" fill="url(#deepPetal)"/>
+    <path d="M-16-5C-9-17 6-18 12-8 25-7 27 7 17 13 13 27-3 29-10 19-22 16-25 3-16-5Z" fill="#40131F"/>
+    <path d="M-52-20C-39-43-21-48-7-38M16-48C36-45 49-31 47-16M41 19C27 36 13 40 1 34" stroke="#D17A83" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(334 119) rotate(8) scale(1.04)">
+    <path d="M-58 10C-69-24-42-61-10-59 19-86 57-61 57-34 84-11 65 31 41 40 20 71-25 63-35 43-62 39-76 20-58 10Z" fill="url(#redPetal)"/>
+    <path d="M-49-13C-37-45-7-54 15-39 42-53 62-27 50-8 61 17 37 42 16 36-2 56-31 45-31 25-55 18-65 0-49-13Z" fill="url(#deepPetal)"/>
+    <path d="M-32-11C-25-31-4-40 12-25 30-32 43-14 31 0 42 17 24 31 9 23-5 39-23 29-21 15-39 9-44-3-32-11Z" fill="url(#redPetal)"/>
+    <path d="M-16-5C-9-17 6-18 12-8 25-7 27 7 17 13 13 27-3 29-10 19-22 16-25 3-16-5Z" fill="#32101B"/>
+    <path d="M-50-22C-38-41-23-47-8-39M15-49C34-46 48-31 47-17M42 17C29 35 13 40 1 34" stroke="#D17A83" stroke-opacity=".38" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(532 157) rotate(17) scale(.98)">
+    <path d="M-58 10C-69-24-42-61-10-59 19-86 57-61 57-34 84-11 65 31 41 40 20 71-25 63-35 43-62 39-76 20-58 10Z" fill="url(#deepPetal)"/>
+    <path d="M-49-13C-37-45-7-54 15-39 42-53 62-27 50-8 61 17 37 42 16 36-2 56-31 45-31 25-55 18-65 0-49-13Z" fill="url(#redPetal)"/>
+    <path d="M-32-11C-25-31-4-40 12-25 30-32 43-14 31 0 42 17 24 31 9 23-5 39-23 29-21 15-39 9-44-3-32-11Z" fill="url(#deepPetal)"/>
+    <path d="M-16-5C-9-17 6-18 12-8 25-7 27 7 17 13 13 27-3 29-10 19-22 16-25 3-16-5Z" fill="#3B111D"/>
+    <path d="M-48-23C-35-43-20-47-7-39M15-49C34-46 48-31 47-17M42 17C29 35 13 40 1 34" stroke="#CE7480" stroke-opacity=".34" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(113 272) rotate(-22) scale(.65)">
+    <path d="M-55 5C-61-27-34-52-8-49 17-71 47-52 49-30 71-9 57 23 35 32 16 57-21 51-29 34-50 32-65 19-55 5Z" fill="url(#blushPetal)"/>
+    <path d="M-43-12C-32-37-8-43 10-32 30-43 48-22 39-6 48 12 28 31 11 27-4 42-25 34-25 18-43 14-53 1-43-12Z" fill="url(#blushPetal)"/>
+    <path d="M-26-8C-19-24-2-31 9-19 23-24 32-9 23 2 31 15 15 25 4 19-7 31-21 22-17 12-31 7-35 0-26-8Z" fill="#80515F"/>
+    <path d="M-12-3C-4-13 8-10 10-1 20 3 17 13 8 15 4 24-8 22-10 13-20 9-20 0-12-3Z" fill="#593342"/>
+  </g>
+  <g transform="translate(616 267) rotate(21) scale(.59)">
+    <path d="M-55 5C-61-27-34-52-8-49 17-71 47-52 49-30 71-9 57 23 35 32 16 57-21 51-29 34-50 32-65 19-55 5Z" fill="url(#blushPetal)"/>
+    <path d="M-43-12C-32-37-8-43 10-32 30-43 48-22 39-6 48 12 28 31 11 27-4 42-25 34-25 18-43 14-53 1-43-12Z" fill="url(#blushPetal)"/>
+    <path d="M-26-8C-19-24-2-31 9-19 23-24 32-9 23 2 31 15 15 25 4 19-7 31-21 22-17 12-31 7-35 0-26-8Z" fill="#815360"/>
+    <path d="M-12-3C-4-13 8-10 10-1 20 3 17 13 8 15 4 24-8 22-10 13-20 9-20 0-12-3Z" fill="#563342"/>
+  </g>
+</svg>

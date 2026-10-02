@@ -1,0 +1,558 @@
+Sen kıdemli bir frontend geliştiricisi ve aynı zamanda premium dijital deneyimler tasarlayan bir UI/UX tasarımcısısın.
+
+Bana kız arkadaşımın gönlünü almak için hazırlanmış, klişe bir özür sayfasından kesinlikle uzak, son derece minimalist, ciddi, duygusal ama olgun, premium ve lüks hissettiren bir **“Özür ve Gelecek Protokolü”** web sitesi oluştur.
+
+Bu site bir “romantik gösteriş” sitesi gibi görünmemeli. Asıl amacı şunu hissettirmek:
+
+**“Seni sonunda gerçekten dinledim. Seni tekrar tekrar anlatmak zorunda bırakmayacağım. Nerede hata yaptığımı anladım ve bunu sözlerle değil davranışlarımla değiştirmek istiyorum.”**
+
+Site açıldığında karşı tarafa baskı yapan, aşırı romantik veya yapay cümleler kullanma. Tasarım ve metinler olgun, sakin ve samimi olsun.
+
+---
+
+# 1. TASARIM DİLİ
+
+Genel estetik:
+
+* Premium luxury editorial website
+* Minimalist
+* Dark / cinematic
+* Apple + high-end fashion editorial + modern portfolio estetiği
+* Bol negatif alan
+* Çok ince çizgiler
+* Yavaş ve zarif animasyonlar
+* Keskin ve temiz tipografi
+* Gereksiz gradient, emoji, kalp, parıltı, konfeti veya klişe romantik ikonlar KULLANMA.
+
+### Renk paleti
+
+Ana arka plan:
+
+* #08090C
+* #0D0E12
+* #111218
+
+Metin:
+
+* Kırık beyaz
+* #F4F1F6
+
+Vurgu:
+
+* Çok hafif lila
+* Soluk gül kurusu
+* Çok hafif pudra pembe
+
+Renkler bağırmamalı.
+
+Pembe/lila tonları yalnızca küçük vurgu noktalarında kullanılmalı.
+
+---
+
+# 2. TEKNOLOJİ
+
+Modern ve temiz bir yapı kur.
+
+Tercihen:
+
+* React
+* Vite
+* Tailwind CSS
+* Lucide Icons veya benzeri minimal ikon sistemi
+* CSS animations / Framer Motion kullanılabilir
+* Responsive tasarım
+* Mobil öncelikli düşün
+* Desktop'ta da premium görünmeli.
+
+Kod temiz, component-based ve kolay düzenlenebilir olsun.
+
+Her şeyi tek bir dev component içine doldurma.
+
+Component'leri mantıklı şekilde ayır.
+
+Örneğin:
+
+* Intro
+* ProtocolHeader
+* AwarenessSection
+* PromiseSection
+* LetterSection
+* Timeline
+* ClosingSection
+* AudioPlayer
+
+---
+
+# 3. GİRİŞ EKRANI
+
+İlk ekran neredeyse tamamen boş ve karanlık olsun.
+
+Ortada çok ince, dikey bir çizgi.
+
+Çizgi yukarıdan aşağıya doğru çok yavaş şekilde ortaya çıkabilir.
+
+Çizginin altında:
+
+**02.10.2026**
+
+küçük, harf aralığı geniş bir tipografiyle.
+
+Onun altında:
+
+**Sadece Senin İçin**
+
+minimal bir outline buton.
+
+Buton hover olduğunda çok hafif lila/pembe bir ışık ve border geçişi olsun.
+
+Butona basıldığında:
+
+* intro fade out
+* sayfa yumuşak şekilde aşağı scroll olsun
+* içerik bir anda patlamasın
+* her bölüm sırayla ve sakin şekilde görünür hale gelsin.
+
+---
+
+# 4. İLK MESAJ
+
+Ana içeriğe geçildiğinde ilk olarak büyük bir editorial başlık göster:
+
+**“Bu kez senden bir şey istemiyorum.”**
+
+Altında daha küçük:
+
+**“Sadece beni okumadan önce, seni gerçekten dinlediğimi bilmeni istiyorum.”**
+
+Bu bölüm çok sade olmalı.
+
+Yaklaşık 3-4 saniyelik sakin bir giriş animasyonu olabilir.
+
+---
+
+# 5. KIZ ARKADAŞIMIN SÖYLEDİKLERİNİN ÖZÜ
+
+Bu bölüm sitenin duygusal merkezi.
+
+Başlık:
+
+**“Seni tekrar tekrar anlatmak zorunda bıraktım.”**
+
+Altında şu düşünceyi çok güçlü ama sade şekilde anlat:
+
+> “Bir şeyleri anlatmaktan yorulduğunu söyledin.
+> Her şeyi tekrar tekrar açıklamanın seni yorduğunu, sinirlendirdiğini söyledin.
+> İlişkimizi düzgün ve sağlıklı götürmeye çalışırken bunun karşılığını görememenin seni üzdüğünü söyledin.
+> Ve benden artık daha fazla açıklama değil, fark etmemi ve dikkat etmemi istedin.”
+
+Burada kesinlikle savunmaya geçme.
+
+“Ben aslında...”,
+“ama benim de...”,
+“şundan dolayı...” gibi bahaneler ekleme.
+
+Bu bölümün amacı onun söylediğini gerçekten duyduğumu göstermek.
+
+---
+
+# 6. “GERÇEKLERİN FARKINDAYIM”
+
+Başlık:
+
+**01. Gerçeklerin Farkındayım**
+
+Altında üç adet premium editorial kart olsun.
+
+Kartların üzerinde küçük numaralar:
+
+01
+02
+03
+
+### 01 — Sorumluluk
+
+Başlık:
+
+**Seni tekrar tekrar anlatmak zorunda bıraktım.**
+
+Metin:
+
+“Bunun ne kadar yorucu olduğunu artık daha net görüyorum. Sen bir şeyi defalarca anlatmak istemiyorsun. Haklısın. Bir ilişkide karşındaki insanın seni anlayabilmesi için her şeyi tekrar tekrar tarif etmek zorunda kalmaman gerekiyor.”
+
+### 02 — Hakkını Teslim Etmek
+
+Başlık:
+
+**Sen benden bunu beklerken ben yeterince dikkat etmedim.**
+
+Metin:
+
+“Benim her sıkıntımda yanımda olmaya çalışırken, senin aynı hassasiyeti benden görememen büyük bir haksızlık. İlişkimizin başından beri verdiğin emeği, gösterdiğin sabrı ve beni anlamaya çalışmanı görüyorum.”
+
+### 03 — Bahane Yok
+
+Başlık:
+
+**Yaşadıklarım bir açıklama olabilir, bahane değil.**
+
+Metin:
+
+“Yaşadığım sağlık problemlerinin, baş ağrılarımın ve önümdeki ameliyat sürecinin beni etkilediğini biliyorum. Ama bunların hiçbirini seni kırmamın bahanesi olarak kullanmayacağım. Zorlanıyor olmam, sana karşı daha az dikkatli olmamı haklı çıkarmaz.”
+
+Bu bölümde özellikle sağlık konusunu dramatize etme.
+
+---
+
+# 7. BÜYÜK GEÇİŞ MESAJI
+
+Ekranın tamamına yakınını kaplayan sade bir bölüm oluştur.
+
+Ortada büyük typography:
+
+**“Senden daha fazla açıklama istemiyorum.”**
+
+Bir süre sonra altına:
+
+**“Çünkü bu kez anlaması gereken kişi benim.”**
+
+Bu iki cümle sitenin en güçlü görsel anlarından biri olsun.
+
+---
+
+# 8. GELECEK VE DEĞİŞİM PROTOKOLÜ
+
+Başlık:
+
+**02. Sana Verdiğim Sözler**
+
+Burada “söz veriyorum” demekten çok, somut davranış değişiklikleri anlat.
+
+### 01 — Daha Çok Dinlemek
+
+“Bir şey söylediğinde hemen cevap vermek, kendimi savunmak veya açıklama yapmak yerine önce gerçekten anlamaya çalışacağım.”
+
+### 02 — Detayları Fark Etmek
+
+“Senin tekrar söylemeni beklemek yerine, daha önce söylediklerini ve seni rahatsız eden şeyleri kendim hatırlamaya ve dikkat etmeye çalışacağım.”
+
+### 03 — Davranışla Göstermek
+
+“Bunu sana uzun mesajlarla kanıtlamaya çalışmayacağım. Çünkü sen zaten kelimelerden çok davranış görmek istediğini söyledin.”
+
+### 04 — Savunmaya Geçmemek
+
+“Bir konuda kırıldığını söylediğinde ilk refleksim kendimi haklı çıkarmak olmayacak. Önce seni neden kırdığımı anlamaya çalışacağım.”
+
+### 05 — Aynı Şeyi Tekrar Ettirmemek
+
+“Bir şeyi sana defalarca anlatmak zorunda bırakmak istemiyorum. Söylediklerini ciddiye alacağım ve aynı hataları azaltmak için gerçekten çaba göstereceğim.”
+
+---
+
+# 9. “SANA BORÇLU OLDUĞUM ŞEY”
+
+Burada ekran biraz daha boş ve sakin olsun.
+
+Küçük başlık:
+
+**Sana Borçlu Olduğum Şey**
+
+Büyük metin:
+
+**“Mükemmel olmak değil.
+Daha dikkatli olmak.”**
+
+Altında:
+
+“Benden kusursuz olmamı beklemediğini biliyorum. Ama seni dinlememi, seni anlamaya çalışmamı ve aynı şeyleri tekrar tekrar anlatmak zorunda bırakmamamı bekliyorsun.
+
+Bunun çok şey istemek olmadığını şimdi daha iyi anlıyorum.”
+
+---
+
+# 10. KISA BİR MEKTUP
+
+Bu bölüm daha kişisel hissettirmeli.
+
+Başlık:
+
+**“Sana Söylemek İstediğim Son Şey”**
+
+Mektup:
+
+“Biliyorum, artık sadece özür duymak istemiyorsun.
+
+Ben de sana aynı şeyleri tekrar tekrar söyleyip bir süre sonra hiçbir şey değişmemiş gibi davranmak istemiyorum.
+
+Seni kırdığım için gerçekten üzgünüm.
+
+Özellikle de sen bana kendi sıkıntılarında yanında olmaya çalışırken, benim seni yeterince görmediğim ve dikkat etmediğim anlar için.
+
+Sana kendimi açıklamak yerine seni anlamam gerektiğini biliyorum.
+
+Bu yüzden senden şu an hiçbir şeyi hemen düzeltmeni, hemen affetmeni veya bana bir cevap vermeni istemiyorum.
+
+Sadece şunu bilmeni istiyorum:
+
+**Seni duydum.
+Ne demek istediğini anladım.
+Ve bundan sonra bunu davranışlarımla göstermem gerektiğini biliyorum.**
+
+Seni seviyorum.
+
+Ama bu kez sevgimi söylemekten çok, sana hissettirmek istiyorum.”
+
+Son cümleyi diğerlerinden biraz daha büyük göster.
+
+---
+
+# 11. “PROTOKOL” KISMI
+
+Burayı web sitesinin konseptine uygun şekilde tasarla.
+
+Başlık:
+
+**03. Gelecek Protokolü**
+
+Altında çok minimalist bir checklist:
+
+✓ Dinle
+✓ Anlamaya çalış
+✓ Hatırla
+✓ Dikkat et
+✓ Savunmaya geçme
+✓ Aynı şeyi tekrar ettirme
+✓ Söylediğini davranışa dönüştür
+
+Checkbox'lar gerçek interaktif olabilir.
+
+Kullanıcı bir checkbox'a bastığında küçük bir animasyon olsun.
+
+Ama tamamlandığında konfeti vb. kullanma.
+
+Çünkü bu bir oyun değil.
+
+---
+
+# 12. ZAMAN ÇİZGİSİ
+
+Çok minimal bir timeline oluştur.
+
+Başlık:
+
+**“Bugün”**
+
+Altında:
+
+**02.10.2026**
+
+Açıklama:
+
+“Her şeyi bir anda değiştireceğime dair büyük sözler vermiyorum.
+
+Ama bugünden itibaren daha dikkatli olmaya başlıyorum.”
+
+Sonra:
+
+**“Yarın”**
+
+“Daha önce söylediklerini hatırlamak.”
+
+Sonra:
+
+**“Sonrası”**
+
+“Bunu bir özür anı olarak bırakmamak.”
+
+Bu bölümde özellikle “sonsuz aşk”, “ömür boyu”, “ne pahasına olursa olsun” gibi aşırı dramatik ifadeler kullanma.
+
+---
+
+# 13. SON EKRAN
+
+Sayfanın en sonunda ekran tamamen tekrar kararsın.
+
+Ortada küçük:
+
+**“Bu sayfa burada bitebilir.”**
+
+Bir süre sonra:
+
+**“Ama söylemek istediğim şey burada bitmiyor.”**
+
+Son olarak büyük:
+
+**“Özür dilerim.”**
+
+Altında:
+
+**“Ve seni gerçekten dinlemeye çalışacağım.”**
+
+En altta küçük:
+
+**02.10.2026**
+
+Ve çok küçük:
+
+**“Sadece Senin İçin.”**
+
+---
+
+# 14. MÜZİK
+
+Sayfanın en altında çok minimal bir audio player oluştur.
+
+Ancak telifli bir şarkıyı internetten izinsiz şekilde embed etme veya indirme.
+
+Barış Manço'nun “Gülpembe” şarkısının kendisini siteye gömme.
+
+Bunun yerine:
+
+* Kullanıcının kendi yükleyebileceği bir audio dosyası alanı oluştur.
+* `/public/music/` altında örneğin `background.mp3` bekleyen bir sistem kur.
+* Dosya mevcutsa player otomatik görünsün.
+* Dosya yoksa player kırılmasın; zarif şekilde “Müzik için dokun” veya benzeri placeholder göster.
+* Play/pause
+* Ses seviyesi
+* Progress bar
+* Mobile responsive
+
+Audio otomatik başlamasın. Kullanıcı kendisi başlatsın.
+
+Player ekranın geri kalanını bozmamalı.
+
+---
+
+# 15. ANİMASYONLAR
+
+Animasyonların amacı gösteriş değil, duyguyu desteklemek.
+
+Kullan:
+
+* fade in
+* fade up
+* slow reveal
+* line drawing
+* opacity transition
+* smooth scrolling
+* subtle parallax
+
+Kullanma:
+
+* bounce
+* confetti
+* kalpler uçuşması
+* aşırı blur
+* neon glow
+* sürekli hareket eden arka plan
+* fazla gradient
+* aşırı hızlı transition
+
+Animasyonlar 400–1200 ms aralığında, sakin ve premium hissettirsin.
+
+---
+
+# 16. RESPONSIVE TASARIM
+
+Desktop:
+
+İki kolonlu bölümler kullanılabilir.
+
+Mobile:
+
+Tüm bölümler tek kolon olsun.
+
+Font boyutları responsive olsun.
+
+Butonlar mobilde rahat tıklanabilir olsun.
+
+Mektup bölümü mobilde özellikle rahat okunmalı.
+
+---
+
+# 17. EKSTRA PREMIUM DETAYLAR
+
+Siteye küçük ama kaliteli detaylar ekle:
+
+* Scroll progress indicator
+* Bölüm numaraları
+* Çok ince divider çizgileri
+* Hover durumları
+* Mouse hareketine çok hafif tepki veren ışık/gradient olabilir
+* Ancak performansı düşürme
+* Custom scrollbar
+* Sayfa açılışında çok hafif grain/noise texture
+* Accessibility
+* prefers-reduced-motion desteği
+
+Cursor efekti masaüstünde çok hafif olabilir ancak mobilde devre dışı bırak.
+
+---
+
+# 18. EN ÖNEMLİ TASARIM KURALI
+
+Bu site:
+
+“Bak senin için ne kadar büyük bir şey yaptım.”
+
+hissi vermemeli.
+
+Tam tersine:
+
+**“Seni gerçekten dinledim ve kendime dönüp baktım.”**
+
+hissi vermeli.
+
+Kız arkadaşımın yazdığı mesajın merkezindeki duygu:
+
+**“Ben artık her şeyi anlatmaktan yoruldum. Sadece gör. Sadece dikkat et. Ben senin her sıkıntında yanında olmaya çalışırken sen de bunu yap.”**
+
+Bu duygu bütün tasarımın temelinde olmalı.
+
+Siteyi ziyaret eden kişi, daha ilk 20 saniyede bunun sıradan bir “özür mesajı” olmadığını hissetmeli.
+
+Ancak manipülatif bir dil kullanma.
+
+“Beni affetmek zorundasın”, “sensiz yaşayamam”, “ne olur gitme”, “seni kaybetmeye dayanamam” gibi baskı oluşturan cümleler kesinlikle kullanma.
+
+Affedip affetmemek tamamen onun kararına aitmiş gibi tasarla.
+
+---
+
+# 19. KOD KALİTESİ
+
+Projeyi gerçekten çalışır şekilde oluştur.
+
+Şunları kontrol et:
+
+* npm install
+* npm run dev
+* npm run build
+
+Build hatası olmamalı.
+
+Responsive layout kontrol edilmeli.
+
+Console'da gereksiz error/warning bırakma.
+
+Broken image veya broken audio oluşmamalı.
+
+Kod tekrarlarını azalt.
+
+Metinleri mümkün olduğunca ayrı bir data/config yapısında tut ki sonradan kolay değiştirebileyim.
+
+Finalde bana:
+
+1. Proje yapısını
+2. Kullanılan teknolojileri
+3. Çalıştırma komutlarını
+4. Müzik dosyasının nereye koyulacağını
+5. Hangi dosyalardan metinleri değiştirebileceğimi
+
+kısaca açıkla.
+
+Önce çalışan temel uygulamayı oluştur, sonra görsel kaliteyi artır.
+
+Sonuç kesinlikle “AI tarafından hızlıca yapılmış basit landing page” gibi görünmemeli.
+
+**Gerçek bir tasarımcının hazırladığı premium, kişisel ve duygusal bir dijital mektup deneyimi gibi görünmeli.**
